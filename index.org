@@ -1,0 +1,9 @@
+#+title: Linear Algebra Demo Gallery
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
+#+OPTIONS: html-style:nil H:0 toc:nil num:nil
+This is a gallery of demos related to linear algebra that [[https://nmmull.github.io][I]] use for
+the course /CAS CS 132: Geometric Algorithms/ at Boston University.
+The visuals are implemented in [[https://elm-lang.org][Elm]].
+* [[file:src/LinearEqThree/index.html][Linear Equations in Three Variables]]
+* TODO Row operations
+* TODO Gaussian Elimination
