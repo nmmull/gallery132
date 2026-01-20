@@ -5940,7 +5940,7 @@ var $author$project$Lib$Utils$isZero = function (x) {
 var $elm$core$Basics$not = _Basics_not;
 var $author$project$Lib$Space$getInterByX = F4(
 	function (params, pln1, pln2, x) {
-		var mxC = $author$project$Lib$Space$maxC(params) / 2;
+		var mxC = $author$project$Lib$Space$maxC(params);
 		var det = F2(
 			function (_v0, _v1) {
 				var e1 = _v0.a;
@@ -6006,8 +6006,8 @@ var $author$project$Lib$Space$intersections = F3(
 					[a]);
 			}
 		};
-		var mxC = $author$project$Lib$Space$maxC(params) / 2;
-		var mnC = $author$project$Lib$Space$minC(params) / 2;
+		var mxC = $author$project$Lib$Space$maxC(params);
+		var mnC = $author$project$Lib$Space$minC(params);
 		var det = (pln1.xCof * pln2.yCof) - (pln1.yCof * pln2.xCof);
 		var checkV = $author$project$Lib$Utils$isZero(pln1.zCof) && ($author$project$Lib$Utils$isZero(pln2.zCof) && (!$author$project$Lib$Utils$isZero(det)));
 		if (checkV) {
@@ -6666,7 +6666,7 @@ var $author$project$LinearEqThree$Main$view = function (model) {
 						_List_Nil,
 						_List_fromArray(
 							[
-								$elm$html$Html$text('\n                  A linear equation in three equations can be\n                  expressed in the above form.  The point set such an\n                  equation is a plane in ℝ³.\n                  ')
+								$elm$html$Html$text('\n                  A linear equation in three variables can be\n                  expressed in the above form.  The point set such an\n                  equation is a plane in ℝ³.\n                  ')
 							]))
 					]))
 			]),
