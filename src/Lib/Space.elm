@@ -288,7 +288,7 @@ getInterByX params pln1 pln2 x =
         c = ( pln1.zCof, pln2.zCof )
         d = ( pln1.rhs, pln2.rhs )
         det ( e1, e2 ) ( f1, f2 ) = e1 * f2 - f1 * e2
-        mxC = maxC params / 2
+        mxC = maxC params
         y = -(det c d + (det a c) * x)
         z = (det b d + (det a b) * x)
     in
@@ -311,8 +311,8 @@ intersections params pln1 pln2 =
             case m of
                 Nothing -> []
                 Just a -> [a]
-        mxC = maxC params / 2
-        mnC = minC params / 2
+        mxC = maxC params
+        mnC = minC params
         det = pln1.xCof * pln2.yCof - pln1.yCof * pln2.xCof
         checkV =
             isZero pln1.zCof

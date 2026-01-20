@@ -164,7 +164,7 @@ view model =
             , p []
                 [ text
                   """
-                  A linear equation in three equations can be
+                  A linear equation in three variables can be
                   expressed in the above form.  The point set such an
                   equation is a plane in ℝ³.
                   """

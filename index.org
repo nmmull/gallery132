@@ -4,6 +4,9 @@
 This is a gallery of demos related to linear algebra that [[https://nmmull.github.io][I]] use for
 the course /CAS CS 132: Geometric Algorithms/ at Boston University.
 The visuals are implemented in [[https://elm-lang.org][Elm]].
-* [[file:src/LinearEqThree/index.html][Linear Equations in Three Variables]]
+* [[file:src/LinearEqThree/index.html][Linear Equation in Three Variables]]
+* TODO Linear System in Three Variables with Three Equations
+* TODO Inconsistent Linear System
+* TODO Inconsistent Linear System
 * TODO Row operations
 * TODO Gaussian Elimination
