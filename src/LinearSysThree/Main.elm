@@ -98,7 +98,7 @@ update msg model =
 view : Model -> Browser.Document Msg
 view model =
     let
-        title = "Linear System in Three Variables"
+        title = "Linear System with Three Equations"
         sceneWidth = 15
         quadrantWidth = 5
         viewBoxWidth = 600
