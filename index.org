@@ -6,5 +6,5 @@ the course /CAS CS 132: Geometric Algorithms/ at Boston University.
 The visuals are implemented in [[https://elm-lang.org][Elm]].
 * [[file:src/LinearEqThree/index.html][Linear Equation in Three Variables]]
 * [[file:src/LinearSysThree/index.html][Linear System with Three Equations]]
-* TODO Row operations
+* [[file:src/RowOp/index.html][Row Replacements Preserve Solutions]]
 * TODO Gaussian Elimination
